@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class RainPointerController : MonoBehaviour {
 
@@ -7,6 +8,8 @@ public class RainPointerController : MonoBehaviour {
 	public float branchRightBorder = 0;
 	public float groundHeight = 0;
 	public GameObject rainSpot;
+
+	private static readonly float RAIN_SPOT_WIDTH = 2f;
 
 	void Start () {
 		wave ();
@@ -24,7 +27,9 @@ public class RainPointerController : MonoBehaviour {
 	IEnumerator SpawnRainSpots(float startWait, float interval, int numberOfSpots) {
 		yield return new WaitForSeconds (startWait);
 		for (int i = 0; i < numberOfSpots; i++) {
+			rainSpot.GetComponent<Renderer>().sortingLayerName = "Foreground";
 			Instantiate (rainSpot, CalculateRainSpotPosition (), Quaternion.identity);
+
 			yield return new WaitForSeconds (interval);
 		}
 
@@ -36,4 +41,6 @@ public class RainPointerController : MonoBehaviour {
 
 		return new Vector3 (calcPositionX, groundHeight, 0);
 	}
+
+
 }
