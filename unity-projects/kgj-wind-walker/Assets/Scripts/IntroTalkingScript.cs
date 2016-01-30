@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.SceneManagement;
 
 public class IntroTalkingScript : MonoBehaviour {
 	public GameObject leftMoney;
@@ -38,7 +37,7 @@ public class IntroTalkingScript : MonoBehaviour {
 	}
 
 	private void LoadNextLevel() {
-		SceneManager.LoadScene ("RunningForWater");
+		Application.LoadLevel("RunningForWater");
 	}
 
 
