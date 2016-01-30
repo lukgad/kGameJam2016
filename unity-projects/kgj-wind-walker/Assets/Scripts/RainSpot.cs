@@ -20,7 +20,13 @@ public class RainSpot : MonoBehaviour {
 		appendSpaceTime ();
 		handleWateringTime ();
 		wateringEnabledParticleSystem.GetComponent<Renderer>().sortingLayerName = "Foreground";
+	}
 
+	void OnTriggerEnter2D(Collider2D collider) {
+		if(collider.gameObject.tag == PLAYER_TAG) {
+			getSpace ();
+			wateringEnabledParticleSystem.Play ();
+		}
 	}
 
 	void OnTriggerStay2D(Collider2D collider) {
@@ -37,7 +43,7 @@ public class RainSpot : MonoBehaviour {
 	}
 
 	private void getSpace() {
-		if(Input.GetKeyDown("space")) {
+		if(Input.GetKey("space")) {
 			spacePressed = true;	
 		}
 		if(Input.GetKeyUp("space")) {
@@ -54,10 +60,14 @@ public class RainSpot : MonoBehaviour {
 	private void handleWateringTime() {
 		if (spacePressTime > requiredWateringTime) {
 			Debug.Log ("Watering time: " + spacePressTime + "\n Destroying spot");
-			scoreController.miraclePerformed ();
-			wateringEnabledParticleSystem.Stop ();
-			Destroy (gameObject);
+			DestroySpot ();
 		}
+	}
+
+	private void DestroySpot() {
+		scoreController.miraclePerformed ();
+		wateringEnabledParticleSystem.Stop ();
+		Destroy (gameObject);
 	}
 
 	private void findScoreController() {
