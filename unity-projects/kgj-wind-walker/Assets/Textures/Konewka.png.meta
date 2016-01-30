@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 761281ed68b7f8b46872b9c9df7d63de
-timeCreated: 1454164358
+timeCreated: 1454164836
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -58,8 +58,8 @@ TextureImporter:
         y: 692
         width: 465
         height: 399
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .75792551, y: .932556331}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
