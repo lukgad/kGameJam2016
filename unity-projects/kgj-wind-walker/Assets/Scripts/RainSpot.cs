@@ -11,9 +11,18 @@ public class RainSpot : MonoBehaviour {
 	private bool spacePressed = false;
 	private ScoreController scoreController;
 	private ParticleSystem wateringEnabledParticleSystem;
+
+	private static readonly string WATERING_ANIM = "Watering";
+	private static readonly string RUNNING_ANIM = "Running";
+	private Animator anim;
+
+
+
 	void Start() {
 		findScoreController ();
 		findRunneyTreeEmission ();
+		anim =  GameObject.FindWithTag ("Player").GetComponent<Animator> ();
+
 	}
 
 	void Update () {
@@ -26,6 +35,8 @@ public class RainSpot : MonoBehaviour {
 		if(collider.gameObject.tag == PLAYER_TAG) {
 			getSpace ();
 			wateringEnabledParticleSystem.Play ();
+			anim.SetBool (WATERING_ANIM, true);
+
 		}
 	}
 
@@ -33,6 +44,7 @@ public class RainSpot : MonoBehaviour {
 		if(collider.gameObject.tag == PLAYER_TAG) {
 			getSpace ();
 			wateringEnabledParticleSystem.Play ();
+			anim.SetBool (WATERING_ANIM, true);
 		}
 	}
 
@@ -44,6 +56,8 @@ public class RainSpot : MonoBehaviour {
 
 	private void getSpace() {
 		if(Input.GetKey("space")) {
+			spacePressTime += 1f;
+
 			spacePressed = true;	
 		}
 		if(Input.GetKeyUp("space")) {
