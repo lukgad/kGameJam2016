@@ -15,7 +15,7 @@ public class RunningEndsSpawner : MonoBehaviour {
 	void Start () {
         var xpos = (Camera.main.transform.position.x + GameplayControl.Instance.distance);
         xpos = reverse ? xpos : xpos * -1;
-        placement = new Vector3(xpos, 0, 0);
+		placement = new Vector3(xpos, transform.position.y, 0);
         transform.position = placement;
     }
 	

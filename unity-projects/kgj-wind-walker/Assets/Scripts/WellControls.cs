@@ -17,8 +17,7 @@ public class WellControls : MonoBehaviour
     void Update()
     {
         var pScroll = GameplayControl.Instance.playerControl.GetComponent<ScrollingScript>();
-        var isVisible = GetComponentInChildren<Renderer>().IsVisibleFrom(Camera.main);
-        if (isVisible && !touched)
+		if (fakeBody().IsVisibleFrom(Camera.main) && !touched)
         {
             pScroll.isLinkedToCamera = false;
             GameplayControl.Instance.GetComponent<EnemySpawningControl>().stopSpawning();
@@ -32,4 +31,8 @@ public class WellControls : MonoBehaviour
     {
         Debug.Log(Time.time - time);
     }
+
+	private Renderer fakeBody() {
+		return transform.FindChild ("WellFakeBody").GetComponent<Renderer> ();
+	}
 }
