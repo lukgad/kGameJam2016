@@ -19,6 +19,8 @@ public class RainSpot : MonoBehaviour {
 	void Update () {
 		appendSpaceTime ();
 		handleWateringTime ();
+		wateringEnabledParticleSystem.GetComponent<Renderer>().sortingLayerName = "Foreground";
+
 	}
 
 	void OnTriggerStay2D(Collider2D collider) {
