@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="wellSvg.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="306.3497"
+     inkscape:cy="756.18001"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-grids="true"
+     inkscape:window-width="1858"
+     inkscape:window-height="1058"
+     inkscape:window-x="54"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3336-4-4-2"
+       cx="297.50003"
+       cy="423.4205"
+       rx="152.61035"
+       ry="41.904869"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.78899997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4235"
+       width="299.2131"
+       height="162.36298"
+       x="146.87061"
+       y="268.00583"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <ellipse
+       style="fill:#800000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.00083351;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3336"
+       cx="293.01498"
+       cy="238.3622"
+       rx="187.30026"
+       ry="55.713871"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#800000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.63099998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3370"
+       width="375.64725"
+       height="38.939964"
+       x="105.23151"
+       y="202.17793"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <ellipse
+       style="fill:#800000;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3336-4"
+       cx="292.85712"
+       cy="202.64789"
+       rx="187.14285"
+       ry="55.714287"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <ellipse
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.71809167px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path3336-4-4"
+       cx="294.71429"
+       cy="200.93364"
+       rx="152.99809"
+       ry="35.140953"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.81564367;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 105.78166,203.19473 0.31618,38.2755"
+       id="path4243"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.87065971;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 479.90715,202.94471 0.33567,38.27048"
+       id="path4243-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.98322928;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 145.04652,272.36388 0.30871,153.08467"
+       id="path4243-1-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 449.36345,268.88706 0.30887,154.25195"
+       id="path4243-1-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 447.67586,414.34949 c -0.70034,-0.46425 -1.82307,-1.13389 -2.49495,-1.48808 l -1.22157,-0.64398 0.094,-69.98965 0.0941,-69.98966 2.05742,-0.41358 c 1.13159,-0.22747 2.10607,-0.39067 2.16554,-0.36268 0.14392,0.0677 0.83353,143.61074 0.69033,143.67879 -0.0611,0.029 -0.6844,-0.3269 -1.38476,-0.79116 z"
+       id="path4281"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 146.2835,385.43898 c -0.034,-16.48773 -0.0894,-42.52344 -0.12333,-57.85715 l -0.0616,-27.87946 0.38744,0 0.38743,0 0,57.50191 0,57.50192 -0.24506,0.35522 c -0.13478,0.19538 -0.25364,0.35524 -0.26412,0.35524 -0.0105,0 -0.0468,-13.48996 -0.0808,-29.97768 z"
+       id="path4283"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 146.10304,298.22168 c -0.008,-0.81333 -0.0165,-3.93722 -0.0194,-6.94196 l -0.005,-5.46317 0.39621,0 0.3962,0 0,6.94196 0,6.94197 -0.37678,0 -0.37677,0 -0.0141,-1.4788 z"
+       id="path4285"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 446.08762,271.70352 0.001,-0.14058 0.13613,-0.057 c 0.66721,-0.27953 1.42516,-0.60354 2.04716,-0.87511 0.0484,-0.0211 0.089,-0.0374 0.0902,-0.0362 0.001,0.001 0.003,0.19587 0.004,0.43252 l 0.002,0.43029 -0.0303,0 c -0.0757,0 -0.37337,0.0409 -0.67523,0.0927 -0.0304,0.005 -0.0925,0.0159 -0.13811,0.0237 -0.32596,0.0559 -0.75616,0.13676 -1.26081,0.23697 -0.0923,0.0183 -0.16999,0.0333 -0.17268,0.0333 -0.004,0 -0.005,-0.0308 -0.004,-0.14058 z"
+       id="path4291"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4437"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.34238408,0.56531201)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4439"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.30632924,0.6116037)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4441"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.30944771,0.52133443)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4443"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.26900227,0.51780352)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4445"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.27200642,0.59208909)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4447"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.42617014,0.39249852)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4449"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.29808529,0.49887601)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4451"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.38085528,0.55270239)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4453"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.27424663,0.49538352)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4455"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.31030734,0.38006501)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4457"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.2027896,0.41899942)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4459"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.23779757,0.35752077)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4461"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.30810453,0.36931908)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4463"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.36761682,0.40229231)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4465"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.30424548,0.42836737)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4467"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.30743774,0.52669359)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4469"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.31520552,0.54435353)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4471"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.47996422,0.44025244)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4473"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.40398126,0.55570119)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4475"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.36045189,0.48922139)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4513"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.32730071,0.6239649)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4515"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.33078324,0.63628288)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4517"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.33516709,0.58397798)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4519"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.4121791,0.64062678)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4521"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.39782861,0.62525837)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4523"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.32966487,0.56610328)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4525"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.39110413,0.55052787)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4527"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.32088313,0.6570227)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4529"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.31224729,0.64606217)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4531"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.32466297,0.66152543)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4533"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.3620513,0.61983664)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4535"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.18939028,0.53397487)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4537"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.27599175,0.61486527)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4539"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.17810791,0.61126068)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4541"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.2842447,0.59640406)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4543"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.26416573,0.68976216)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4545"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.32378121,0.57107134)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4547"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.17539557,0.47126323)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4549"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.18109693,0.60942716)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4551"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.19233771,0.60705787)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4553"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.24206426,0.54225593)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4555"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.34583845,0.52983949)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4557"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.18714354,0.64695376)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4559"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.29530025,0.53808037)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4561"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.28153981,0.66407938)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4563"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.32260872,0.50328521)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4565"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.21306781,0.62757577)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4567"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.1667318,0.48882811)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4569"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.26053659,0.54939447)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4571"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.31545165,0.51439827)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4573"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.24099873,0.5327444)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4575"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.15572901,0.42269324)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4577"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.16336292,0.49764319)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4579"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.16427945,0.61800225)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4581"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.15909614,0.59840542)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4583"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.06843591,0.65499722)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4585"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.27767189,0.5222514)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4587"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.16237652,0.46200106)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4589"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.15335507,0.47413112)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4591"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.18045597,0.39492708)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4593"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.17703683,0.47139721)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4595"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.13197008,0.58456206)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4597"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.09106513,0.59763908)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4599"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(0.0092268,0.46133356)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4601"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.16903169,0.57872193)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4603"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-0.05574802,0.44518074)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4693"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-299.08667,9.275465)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4695"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-299.07144,11.060935)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4697"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-298.62836,10.76792)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4699"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-298.86794,9.333177)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <use
+       id="use4701"
+       xlink:href="#path4291"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-297.62971,10.173181)"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 146.12917,281.14292 c -1.8e-4,-2.54006 -0.0262,-5.18477 -0.0579,-5.87714 l -0.0576,-1.25884 0.41147,0.1402 0.41146,0.1402 0,5.73693 0,5.73694 -0.35355,0 -0.35355,0 -3.3e-4,-4.61829 z"
+       id="path4703"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\GameDev\Projects\gamejame\kGameJam2016\unity-projects\kgj-wind-walker\Assets\Textures\wellPrototype.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>
