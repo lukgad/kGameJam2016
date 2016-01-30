@@ -10,6 +10,8 @@ GameObject:
   - 4: {fileID: 453296}
   - 212: {fileID: 21250074}
   - 114: {fileID: 11470450}
+  - 61: {fileID: 6113126}
+  - 114: {fileID: 11489612}
   m_Layer: 0
   m_Name: rainSpot
   m_TagString: RainSpot
@@ -24,11 +26,25 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 170860}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.02, y: -4.14, z: 0}
+  m_LocalPosition: {x: -3.47, y: -4.26, z: 0}
   m_LocalScale: {x: 0.81603885, y: 0.17758404, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!61 &6113126
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 170860}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 21}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 45}
 --- !u!114 &11470450
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -40,7 +56,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43bbc35083c4b4c1989db9f851fd8773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeTime: 3
+  lifeTime: 10
+--- !u!114 &11489612
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 170860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f97583504244477db9317250dfb025c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredWateringTime: 0.5
 --- !u!212 &21250074
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -80,11 +108,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: lifeTime
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_TagString
       value: RainSpot
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: requiredWateringTime
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
