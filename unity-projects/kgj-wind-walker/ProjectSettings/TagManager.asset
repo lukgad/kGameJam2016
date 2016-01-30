@@ -9,6 +9,7 @@ TagManager:
   - ScoreController
   - wellTag
   - RunneyTreeEmission
+  - waterTarget
   layers:
   - Default
   - TransparentFX
