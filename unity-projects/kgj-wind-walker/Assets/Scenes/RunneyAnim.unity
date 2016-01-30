@@ -257,7 +257,15 @@ Prefab:
     - target: {fileID: 11153380, guid: 8382a945388e3f34b8305c754daebb79, type: 2}
       propertyPath: m_Animation
       value: 
-      objectReference: {fileID: 7400000, guid: 38131931bd7cda74c8038dc3c877034d, type: 2}
+      objectReference: {fileID: 7400000, guid: 81c01e8a2d5c11b4a9943f8037023e43, type: 2}
+    - target: {fileID: 9526572, guid: 8382a945388e3f34b8305c754daebb79, type: 2}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11153380, guid: 8382a945388e3f34b8305c754daebb79, type: 2}
+      propertyPath: m_PlayAutomatically
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8382a945388e3f34b8305c754daebb79, type: 2}
   m_IsPrefabParent: 0
