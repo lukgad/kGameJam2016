@@ -15,7 +15,7 @@ public class PlayerControls : MonoBehaviour
     }
     void Start()
     {
-
+        GetComponentInChildren<Animator>().SetBool("Running", true);
     }
 
     // Update is called once per frame

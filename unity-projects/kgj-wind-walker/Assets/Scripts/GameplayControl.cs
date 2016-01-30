@@ -42,10 +42,12 @@ public class GameplayControl: MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	    if(initReverse)
-        { 
+        {
+            playerControl.GetComponentInChildren<Animator>().SetBool("Running", false);
             if(initReverseTime <= Time.time)
             {
                 initReverse = false;
+                playerControl.GetComponentInChildren<Animator>().SetBool("Running", true);
                 Debug.Log("will go back");
                 playerControl.GoBack();
                 backgroundScrollingScript.StartMoving();
@@ -61,7 +63,7 @@ public class GameplayControl: MonoBehaviour {
             }
         } else
         {
-            initReverseTime = Time.time;
+            initReverseTime = Time.time + 3.0f;
         }
 	}
 
