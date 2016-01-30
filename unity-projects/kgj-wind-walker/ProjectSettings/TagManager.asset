@@ -6,6 +6,8 @@ TagManager:
   tags:
   - RainSpot
   - groundTag
+  - ScoreController
+  - RunneyTreeEmission
   layers:
   - Default
   - TransparentFX
