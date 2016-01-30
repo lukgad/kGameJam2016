@@ -8,6 +8,7 @@ public class RainPointerController : MonoBehaviour {
 	public float branchRightBorder = 0;
 	public float groundHeight = 0;
 	public GameObject rainSpot;
+	public int numberOfMiraclesToSpawn = 15;
 
 	private static readonly float RAIN_SPOT_WIDTH = 2f;
 
@@ -21,7 +22,7 @@ public class RainPointerController : MonoBehaviour {
 	}
 
 	private void wave() {
-		StartCoroutine(SpawnRainSpots(3f, 3f, 10));
+		StartCoroutine(SpawnRainSpots(3f, 3f, numberOfMiraclesToSpawn));
 	}
 
 	IEnumerator SpawnRainSpots(float startWait, float interval, int numberOfSpots) {

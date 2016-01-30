@@ -8,7 +8,7 @@ public class ScoreController : MonoBehaviour {
 	public int miraclesToPerform = 10;
 	public Text scoreText;
 
-	private static readonly string TEXT_TEMPLATE = "Remaining miracles: ";
+	public static readonly string TEXT_TEMPLATE = "Remaining miracles: ";
 
 	void Start () {
 		updateRemainingMiraclesText ();
@@ -17,9 +17,16 @@ public class ScoreController : MonoBehaviour {
 	public void miraclePerformed() {
 		miraclesToPerform--;
 		updateRemainingMiraclesText ();
+		if (miraclesToPerform <= 0) {
+			setScoreTest ("CUSTOMER IS HAPPY");
+		}
 	}
 
 	private void updateRemainingMiraclesText() {
-		scoreText.text = TEXT_TEMPLATE + miraclesToPerform;
+		setScoreTest(TEXT_TEMPLATE + miraclesToPerform);
+	}
+
+	public void setScoreTest(string text) {
+		scoreText.text = text;
 	}
 }

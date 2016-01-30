@@ -5,15 +5,17 @@ public class RunneyTree : MonoBehaviour {
 
 	public float moveSpeed = 0;
 	private static readonly string RAINSPOT_TAG_NAME = "RainSpot";
+	private RainPointerController rainSpotPointerController;
 
 	void Start () {
-	
+		rainSpotPointerController = GameObject.FindWithTag ("RainSpotPointerController").GetComponent<RainPointerController>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		KeyListener ();
 		getAllRainSpots ();
+		Walls ();
 	}
 
 	private void KeyListener() {
@@ -23,10 +25,10 @@ public class RunneyTree : MonoBehaviour {
 		} else if (Input.GetKeyDown ("right")) {
 			MoveLeft ();		
 		}
-		if(Input.GetKeyUp("left")) {
+		if(Input.GetKeyUp("left") && !Input.GetKey("right")) {
 			StopAfterKeyRelease();
 		}
-		if(Input.GetKeyUp("right")) {
+		if(Input.GetKeyUp("right") && !Input.GetKey("left")) {
 			StopAfterKeyRelease();
 		}
 	}
@@ -38,14 +40,11 @@ public class RunneyTree : MonoBehaviour {
 	private void MoveRight() {
 		RotateRight ();
 		GetComponent<Rigidbody2D> ().velocity = transform.right * -1 * moveSpeed;
-
 	}
 
 	private void MoveLeft() {
 		RotateLeft ();
-		GetComponent<Rigidbody2D> ().velocity = transform.right * -1* moveSpeed;
-
-
+		GetComponent<Rigidbody2D> ().velocity = transform.right * -1 * moveSpeed;
 	}
 
 	private void RotateRight() {
@@ -61,13 +60,17 @@ public class RunneyTree : MonoBehaviour {
 	}
 
 	private void StopAfterKeyRelease() {
+
 		GetComponent<Rigidbody2D> ().velocity = transform.right * 0;
 	}
 
-	private void killRainSpot() {
-
+	private void Walls() {
+		if (gameObject.transform.position.x < rainSpotPointerController.branchLeftBorder && Input.GetKey("left")) {
+			GetComponent<Rigidbody2D> ().velocity = transform.right * 0f;
+		} 
+		if (gameObject.transform.position.x > rainSpotPointerController.branchRightBorder && Input.GetKey("right")) {
+			GetComponent<Rigidbody2D> ().velocity = transform.right * 0f;
+		} 
 	}
-
-
 }
 
