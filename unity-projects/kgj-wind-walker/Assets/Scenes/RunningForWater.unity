@@ -85,6 +85,33 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &40761703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 40761704}
+  m_Layer: 0
+  m_Name: BushSpawningPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &40761704
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 40761703}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -16.2000008, y: 10.3999996, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 132626694}
+  m_RootOrder: 1
 --- !u!1 &132626692
 GameObject:
   m_ObjectHideFlags: 0
@@ -132,6 +159,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1104965336}
+  - {fileID: 40761704}
   m_Father: {fileID: 0}
   m_RootOrder: 7
 --- !u!114 &132626695
@@ -157,7 +185,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05611c0f974bfbf49bc7074019c3be7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy1Prefab: {fileID: 409014, guid: de2e740b35c457e4e94c8c8c4f5ad3ae, type: 2}
+  numberOfEnemies: 5
+  numberOfForeground: 3
+  enemiesTimes: {x: 1, y: .800000012, z: 1.5}
+  foregroundTimes: {x: 1, y: 1, z: 1.5}
+  spawnRateMin: 1
+  enemyTemplate: {fileID: 409014, guid: de2e740b35c457e4e94c8c8c4f5ad3ae, type: 2}
+  foregroundTemplate: {fileID: 403864, guid: 51023084c60bd5f4f8305a18903d65d6, type: 2}
 --- !u!1 &163732227
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,21 +324,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 57e53cf00d744c3428bbc554e3e4b06a, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &575541943 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 108620, guid: 488d0115ba593cc45873b58440a041f6, type: 2}
-  m_PrefabInternal: {fileID: 1107533454}
---- !u!114 &575541945
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 575541943}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e561095cadb7b584587957a99e5f7e3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &777453596
 Prefab:
   m_ObjectHideFlags: 0
@@ -343,10 +362,6 @@ Prefab:
     - target: {fileID: 455488, guid: c5aef78c1ae3fbe4ba5b7625fd147201, type: 2}
       propertyPath: m_RootOrder
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 21265866, guid: c5aef78c1ae3fbe4ba5b7625fd147201, type: 2}
-      propertyPath: m_SortingLayerID
-      value: 651805227
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c5aef78c1ae3fbe4ba5b7625fd147201, type: 2}
@@ -459,16 +474,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 21202214, guid: 488d0115ba593cc45873b58440a041f6, type: 2}
-      propertyPath: m_SortingLayerID
-      value: 1085128909
-      objectReference: {fileID: 0}
-    - target: {fileID: 150742, guid: 488d0115ba593cc45873b58440a041f6, type: 2}
-      propertyPath: m_TagString
-      value: waterTarget
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 11439730, guid: 488d0115ba593cc45873b58440a041f6, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 488d0115ba593cc45873b58440a041f6, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1143284640
@@ -543,7 +549,7 @@ RectTransform:
   m_AnchoredPosition: {x: 15, y: -15}
   m_SizeDelta: {x: 286, y: 36}
   m_Pivot: {x: 0, y: 1}
---- !u!1001 &1156684727
+--- !u!1001 &1692288973
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -580,11 +586,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 445412, guid: 34bde9dcb3f91ef45ad5dc487cbd3342, type: 2}
       propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11435838, guid: 34bde9dcb3f91ef45ad5dc487cbd3342, type: 2}
-      propertyPath: direction.x
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 34bde9dcb3f91ef45ad5dc487cbd3342, type: 2}

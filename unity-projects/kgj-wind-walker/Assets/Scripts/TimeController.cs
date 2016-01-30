@@ -55,4 +55,9 @@ public class TimeController : MonoBehaviour
     {
         timeIsRunning = false;
     }
+
+    internal void StartTimer()
+    {
+        timeIsRunning = true;
+    }
 }
