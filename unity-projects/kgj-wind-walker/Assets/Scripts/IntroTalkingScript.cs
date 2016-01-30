@@ -27,7 +27,7 @@ public class IntroTalkingScript : MonoBehaviour {
 		StartCoroutine (SpawnRainSpots (rightMoney, 14f));
 		StartCoroutine (SpawnRainSpots (leftAccept, 18f));
 		StartCoroutine (SpawnRainSpots (rightAccept, 18f));
-		StartCoroutine (SpawnRainSpots (rightAccept, 22f));
+		StartCoroutine (LoadLevelAfterTime (22f));
 	}
 
 	private void LoadNextLevenOnSpace() {
@@ -47,7 +47,7 @@ public class IntroTalkingScript : MonoBehaviour {
 		Instantiate (cloud, cloud.transform.position, Quaternion.identity);
 	}
 
-	IEnumerator SpawnRainSpots(float startWait) {
+	IEnumerator LoadLevelAfterTime(float startWait) {
 		yield return new WaitForSeconds (startWait);
 		LoadNextLevel ();
 	}
