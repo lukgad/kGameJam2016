@@ -4,7 +4,7 @@ using System.Collections;
 public class RunneyTree : MonoBehaviour {
 
 	public float moveSpeed = 0;
-	private static readonly string RAINSPOT_TAG_NAME = "rainspot";
+	private static readonly string RAINSPOT_TAG_NAME = "RainSpot";
 
 	void Start () {
 	
@@ -13,7 +13,7 @@ public class RunneyTree : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		KeyListener ();
-		Debug.Log (getAllRainSpots ());
+		getAllRainSpots ();
 	}
 
 	private void KeyListener() {
@@ -64,6 +64,9 @@ public class RunneyTree : MonoBehaviour {
 		GetComponent<Rigidbody2D> ().velocity = transform.right * 0;
 	}
 
+	private void killRainSpot() {
+
+	}
 
 
 }
