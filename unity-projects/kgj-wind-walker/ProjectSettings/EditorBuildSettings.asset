@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/Scenes/RitualScene.unity
   - enabled: 1
     path: Assets/Scenes/RunningForWater.unity
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
