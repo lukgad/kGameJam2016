@@ -8,7 +8,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 498662}
-  - 114: {fileID: 11439730}
+  - 114: {fileID: 11425222}
   m_Layer: 0
   m_Name: WaterTarget
   m_TagString: Untagged
@@ -28,7 +28,7 @@ GameObject:
   - 61: {fileID: 6172072}
   m_Layer: 0
   m_Name: WaterTargetBody
-  m_TagString: Untagged
+  m_TagString: waterTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52,7 +52,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 108620}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 13.3999996, y: -1.60000002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 470098}
@@ -71,7 +71,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 2.55999994, y: 2.55999994}
---- !u!114 &11439730
+--- !u!114 &11425222
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -79,11 +79,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 108620}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fc0db88319d80541b9e9fd36eb7e18e, type: 3}
+  m_Script: {fileID: 11500000, guid: e561095cadb7b584587957a99e5f7e3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placement: {x: 0, y: 0, z: 0}
-  reverse: 1
 --- !u!212 &21202214
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -108,7 +106,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1085128909
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 7110e3580221f4dd4aae932080d57e4e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

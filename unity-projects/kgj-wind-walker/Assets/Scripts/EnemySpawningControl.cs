@@ -2,96 +2,109 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class EnemySpawningControl : MonoBehaviour {
+public class EnemySpawningControl : MonoBehaviour
+{
 
-    private List<float> enemiesPos;
-    private int numberOfEnemies;
-    private float spawnRate = 1.0f;
-    public Transform enemy1Prefab;
-    private float time;
+    private List<Transform> enemies;
+    private List<Transform> foregrounds;
+    public int numberOfEnemies = 200;
+    public int numberOfForeground = 3;
+    public Vector3 enemiesTimes = new Vector3(1.0f, 0.8f, 1.5f);
+    public Vector3 foregroundTimes = new Vector3(1.0f, 1.0f, 1.5f);
+    public float spawnRateMin = 0.5f;
+    public Transform enemyTemplate;
+    public Transform foregroundTemplate;
     private bool timeIsRunning;
-    private Transform currentEnemy;
-    private int index;
     private bool reverse = false;
+    private float postionForEnemies;
+    private float positionForForeground;
 
     // Use this for initialization
-    void Start () {
-        enemiesPos = new List<float>();
+    void Start()
+    {
+        enemies = new List<Transform>();
+        foregrounds = new List<Transform>();
         timeIsRunning = true;
-        numberOfEnemies = (int) (GameplayControl.Instance.timeLimit / spawnRate);
-        index = 0;
-        for(int i = 0; i< numberOfEnemies; i++)
-        {
-          
-            var mainCam = Camera.main;
 
-            var leftBorder = mainCam.ViewportToWorldPoint(
-                                 new Vector3(0, 0, 0)
-                             ).x;
+        postionForEnemies = gameObject.transform.FindChild("EnemySpawningPoint").transform.position.y;
+        positionForForeground = gameObject.transform.FindChild("BushSpawningPoint").transform.position.y;
+        enemiesTimes.x = Time.time + enemiesTimes.x;
+        foregroundTimes.x = Time.time + foregroundTimes.x;
 
-            var rightBorder = mainCam.ViewportToWorldPoint(
-                                  new Vector3(1, 0, 0)
-                              ).x;
+    }
 
-            var topBorder = mainCam.ViewportToWorldPoint(
+    // Update is called once per frame
+    void Update()
+    {
+        var leftBorder = Camera.main.ViewportToWorldPoint(
                                 new Vector3(0, 0, 0)
-                            ).y;
+                            ).x;
 
-            var bottomBorder = mainCam.ViewportToWorldPoint(
-                                   new Vector3(0, 1, 0)
-                               ).y;
-
-            var groundSize = GameplayControl.Instance.groundScrollingScript.transform.GetComponentInChildren<Renderer>().bounds.size.y;
-            var render = enemy1Prefab.GetComponent<Renderer>();
-            var ranY = bottomBorder + render.bounds.size.y + groundSize;
-            Debug.Log(ranY + "");
-            var posY = gameObject.transform.FindChild("EnemySpawningPoint").transform.position.y;
-            enemiesPos.Add(posY);
+        var rightBorder = Camera.main.ViewportToWorldPoint(
+                              new Vector3(1, 0, 0)
+                          ).x;
+        if (canSpawn(enemiesTimes,enemies,numberOfEnemies))
+        {
+            addObject(enemiesTimes, enemies, enemyTemplate, "Characters", postionForEnemies, rightBorder, leftBorder);
         }
+        if (canSpawn(foregroundTimes, foregrounds, numberOfForeground))
+       {
+            addObject(foregroundTimes, foregrounds, foregroundTemplate, "Foreground", positionForForeground, rightBorder, leftBorder);
+        }
+
+        cleanupNulls(foregrounds);
+        cleanupNulls(enemies);
+
     }
-	
-	// Update is called once per frame
-	void Update () {
-        if (time < Time.time && timeIsRunning && currentEnemy == null && index < enemiesPos.Count)
-        {
-            var leftBorder = Camera.main.ViewportToWorldPoint(
-                                 new Vector3(0, 0, 0)
-                             ).x;
 
-            var rightBorder = Camera.main.ViewportToWorldPoint(
-                                  new Vector3(1, 0, 0)
-                              ).x;
-            currentEnemy = Instantiate(enemy1Prefab) as Transform;
-            currentEnemy.transform.position = new Vector3(reverse ? rightBorder : leftBorder, enemiesPos[index], 0);
-            currentEnemy.GetComponent<Renderer>().sortingLayerName = "Characters";
-            index++;
-            time = Time.time + 1.0f;
-        }
-        if(currentEnemy != null)
+    private bool canSpawn(Vector3 times, List<Transform> target, int limit)
+    {
+        return times.x < Time.time && timeIsRunning && target.Count < limit;
+    }
+
+    private void addObject(Vector3 timer, List<Transform> target, Transform baseSprite, string sortingLayer, float yPos, float rightBorder, float leftBorder)
+    {
+        var currentFG = Instantiate(baseSprite) as Transform;
+        currentFG.transform.position = new Vector3(reverse ? rightBorder : leftBorder, yPos, 0);
+        currentFG.GetComponent<Renderer>().sortingLayerName = sortingLayer;
+        target.Add(currentFG);
+        currentFG.gameObject.AddComponent<EnemyRemoverControl>();
+        timer.x = Time.time + Random.Range(timer.y, timer.z);
+    }
+
+    private void cleanupNulls(List<Transform> target)
+    {
+        target.ForEach(e =>
         {
-            var visible = currentEnemy.GetComponent<Renderer>().IsVisibleFrom(Camera.main);
-            if(!visible)
+            if (e == null)
             {
-                DestroyObject(currentEnemy.gameObject);
-                currentEnemy = null;
+                target.Remove(e);
             }
-        }
+        });
     }
+    
 
+    private void killAll(List<Transform> target)
+    {
+        target.ForEach(e =>
+        {
+            if (e != null)
+            {
+                DestroyObject(e.gameObject);
+                target.Remove(e);
+            }
+        });
+    }
     public void stopSpawning()
     {
-        if (currentEnemy != null)
-        {
-            DestroyObject(currentEnemy.gameObject);
-        }
-        currentEnemy = null;
+        killAll(enemies);
+        killAll(foregrounds);
         timeIsRunning = false;
     }
 
     public void startSpawning()
     {
         timeIsRunning = true;
-        index = 0;
     }
 
     public void ReverserSpawnBorder()
