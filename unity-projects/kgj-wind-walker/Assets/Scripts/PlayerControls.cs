@@ -75,7 +75,6 @@ public class PlayerControls : MonoBehaviour
         {
             isJumping = false;
             other.gameObject.GetComponentInParent<WaterTargetControl>().DebugTime();
-            other.gameObject.GetComponentInParent<WaterTargetControl>().touched = true;
             scroll.isLinkedToCamera = true;
             GetComponent<ScrollingScript>().speed = Vector2.zero;
             GameplayControl.Instance.StopBackground();

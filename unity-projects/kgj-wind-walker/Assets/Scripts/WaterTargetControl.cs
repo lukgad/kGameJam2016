@@ -4,7 +4,7 @@ using System.Collections;
 public class WaterTargetControl : MonoBehaviour {
 
 
-    internal bool touched = false;
+    internal bool movedAway = false;
     private float time;
 
     // Use this for initialization
@@ -15,15 +15,22 @@ public class WaterTargetControl : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         var pScroll = GameplayControl.Instance.playerControl.GetComponent<ScrollingScript>();
-        var isVisible = GetComponentInChildren<Renderer>().IsVisibleFrom(Camera.main);
-        if (isVisible && !touched)
+		var isVisible = fakeBody().IsVisibleFrom(Camera.main);
+		if (isVisible && movedAway)
         {
             pScroll.isLinkedToCamera = false;
         }
+		if (!isVisible && !movedAway) {
+			movedAway = true;
+		}
     }
 
     public void DebugTime()
     {
         Debug.Log(Time.time - time);
     }
+
+	private Renderer fakeBody() {
+		return transform.FindChild ("WaterTargetFakeBody").GetComponent<Renderer> ();
+	}
 }
