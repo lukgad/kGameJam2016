@@ -83,6 +83,12 @@ public class PlayerControls : MonoBehaviour
             Application.LoadLevel("RitualScene");
 
         }
+
+        if(other.gameObject.tag == "groundEnemy")
+        {
+            DestroyObject(other.gameObject);
+            GameplayControl.Instance.GetComponent<TimeController>().collisionWithObstacle();
+        }
     }
 
 }

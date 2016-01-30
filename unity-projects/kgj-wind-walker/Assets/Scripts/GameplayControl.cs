@@ -54,6 +54,8 @@ public class GameplayControl: MonoBehaviour {
                 groundScrollingScript.StartMoving();
                 backgroundScrollingScript.RebuildList();
                 groundScrollingScript.RebuildList();
+                GetComponent<EnemySpawningControl>().ReverserSpawnBorder();
+                GetComponent<EnemySpawningControl>().startSpawning();
 
             }
         } else

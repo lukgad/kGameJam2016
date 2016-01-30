@@ -10,6 +10,7 @@ TagManager:
   - wellTag
   - RunneyTreeEmission
   - waterTarget
+  - groundEnemy
   layers:
   - Default
   - TransparentFX
