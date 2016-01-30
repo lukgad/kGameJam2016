@@ -20,7 +20,7 @@ public class RainSpot : MonoBehaviour {
 
 	void Start() {
 		findScoreController ();
-		findRunneyTreeEmission ();
+	//	findRunneyTreeEmission ();
 		anim =  GameObject.FindWithTag ("Player").GetComponent<Animator> ();
 
 	}
@@ -28,13 +28,13 @@ public class RainSpot : MonoBehaviour {
 	void Update () {
 		appendSpaceTime ();
 		handleWateringTime ();
-		wateringEnabledParticleSystem.GetComponent<Renderer>().sortingLayerName = "Foreground";
+	//	wateringEnabledParticleSystem.GetComponent<Renderer>().sortingLayerName = "Foreground";
 	}
 
 	void OnTriggerEnter2D(Collider2D collider) {
 		if(collider.gameObject.tag == PLAYER_TAG) {
 			getSpace ();
-			wateringEnabledParticleSystem.Play ();
+		//	wateringEnabledParticleSystem.Play ();
 			anim.SetBool (WATERING_ANIM, true);
 
 		}
@@ -43,7 +43,7 @@ public class RainSpot : MonoBehaviour {
 	void OnTriggerStay2D(Collider2D collider) {
 		if(collider.gameObject.tag == PLAYER_TAG) {
 			getSpace ();
-			wateringEnabledParticleSystem.Play ();
+		//	wateringEnabledParticleSystem.Play ();
 			anim.SetBool (WATERING_ANIM, true);
 		}
 	}
@@ -80,7 +80,7 @@ public class RainSpot : MonoBehaviour {
 
 	private void DestroySpot() {
 		scoreController.miraclePerformed ();
-		wateringEnabledParticleSystem.Stop ();
+	//	wateringEnabledParticleSystem.Stop ();
 		Destroy (gameObject);
 	}
 
