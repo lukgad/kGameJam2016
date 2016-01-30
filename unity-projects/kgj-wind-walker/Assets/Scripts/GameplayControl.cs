@@ -72,6 +72,11 @@ public class GameplayControl: MonoBehaviour {
         backgroundScrollingScript.StopMoving();
     }
 
+    internal void StopPlayer()
+    {
+        playerControl.GetComponent<ScrollingScript>().StopMoving();
+    }
+
     internal void InitReverseRun()
     {
         initReverse = true;

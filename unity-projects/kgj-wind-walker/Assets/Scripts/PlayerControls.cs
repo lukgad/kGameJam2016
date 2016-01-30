@@ -79,6 +79,8 @@ public class PlayerControls : MonoBehaviour
             GetComponent<ScrollingScript>().speed = Vector2.zero;
             GameplayControl.Instance.StopBackground();
             GameplayControl.Instance.StopGround();
+            GameplayControl.Instance.GetComponent<TimeController>().StopTimer();
+            Application.LoadLevel("RitualScene");
 
         }
     }

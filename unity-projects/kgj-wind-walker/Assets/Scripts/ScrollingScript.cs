@@ -83,12 +83,12 @@ public class ScrollingScript : MonoBehaviour
         }
     }
 
-    internal void StartMoving()
+    public void StartMoving()
     {
         speed = startingSpeed;
     }
 
-    internal void StopMoving()
+    public void StopMoving()
     {
         speed = Vector2.zero;
     }
