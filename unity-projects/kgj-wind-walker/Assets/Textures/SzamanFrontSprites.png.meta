@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: cb7c69760764dfc42803f3f862508b85
+timeCreated: 1454159940
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Dancey_Head
+    21300002: Dancey_ForeArm_L
+    21300004: Dancey_ForeArm_R
+    21300006: Dancey_Biceps_L
+    21300008: Dancey_Biceps_R
+    21300010: Dancey_Tie_L
+    21300012: Dancey_Tie_R
+    21300014: Dancey_LowLeg_L
+    21300016: Dancey_LowLeg_R
+    21300018: SzamanFrontSprites_0
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Dancey_Head
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 716
+        width: 539
+        height: 903
+      alignment: 9
+      pivot: {x: .50606811, y: .105196968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dancey_ForeArm_L
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1170
+        width: 127
+        height: 311
+      alignment: 9
+      pivot: {x: .806423426, y: .114178918}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dancey_ForeArm_R
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1136
+        width: 127
+        height: 312
+      alignment: 9
+      pivot: {x: .180808723, y: .0998241752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dancey_Biceps_L
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 954
+        width: 213
+        height: 133
+      alignment: 9
+      pivot: {x: .96467495, y: .327243894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dancey_Biceps_R
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 790
+        width: 212
+        height: 133
+      alignment: 9
+      pivot: {x: .10375458, y: .378536373}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dancey_Tie_L
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 427
+        width: 283
+        height: 277
+      alignment: 9
+      pivot: {x: .80169946, y: .726038754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dancey_Tie_R
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 415
+        width: 283
+        height: 277
+      alignment: 9
+      pivot: {x: .208356991, y: .736313164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dancey_LowLeg_L
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2
+        width: 277
+        height: 355
+      alignment: 9
+      pivot: {x: .808234572, y: .908866584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dancey_LowLeg_R
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 0
+        width: 276
+        height: 354
+      alignment: 9
+      pivot: {x: .180336997, y: .910021484}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SzamanFrontSprites_0
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 378
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
