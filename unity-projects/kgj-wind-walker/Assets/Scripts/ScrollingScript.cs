@@ -11,6 +11,7 @@ public class ScrollingScript : MonoBehaviour
     public bool isLinkedToCamera = false;
     public bool isLooping = false;
     private List<Transform> backgroundList;
+    private Vector2 startingSpeed;
 
     // 3 - Get all the children
     void Start()
@@ -19,6 +20,7 @@ public class ScrollingScript : MonoBehaviour
         {
             RebuildList();
         }
+        startingSpeed = speed;
     }
 
   
@@ -81,6 +83,22 @@ public class ScrollingScript : MonoBehaviour
         }
     }
 
+    internal void StartMoving()
+    {
+        speed = startingSpeed;
+    }
+
+    internal void StopMoving()
+    {
+        speed = Vector2.zero;
+    }
+
+
+    internal void Reverse()
+    {
+        direction.x = direction.x * -1;
+    }
+
     private bool checkIfChildIsPartlyBeforeCamera(Transform firstChild)
     {
         var camX = Camera.main.transform.position.x;
@@ -88,7 +106,7 @@ public class ScrollingScript : MonoBehaviour
         return direction.x < 0 ? posX < camX : posX > camX;
     }
 
-    private void RebuildList()
+    public void RebuildList()
     {
         backgroundList = new List<Transform>();
         for (int i = 0; i < transform.childCount; i++)

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - RainSpot
   - groundTag
+  - wellTag
   layers:
   - Default
   - TransparentFX
