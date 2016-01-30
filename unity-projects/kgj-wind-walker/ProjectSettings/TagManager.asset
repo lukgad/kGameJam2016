@@ -11,6 +11,7 @@ TagManager:
   - RunneyTreeEmission
   - waterTarget
   - RainSpotPointerController
+  - groundEnemy
   layers:
   - Default
   - TransparentFX

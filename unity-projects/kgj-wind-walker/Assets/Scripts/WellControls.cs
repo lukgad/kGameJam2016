@@ -21,6 +21,7 @@ public class WellControls : MonoBehaviour
         if (isVisible && !touched)
         {
             pScroll.isLinkedToCamera = false;
+            GameplayControl.Instance.GetComponent<EnemySpawningControl>().stopSpawning();
         }
     }
 
