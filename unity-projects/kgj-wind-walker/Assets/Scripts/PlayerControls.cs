@@ -42,7 +42,7 @@ public class PlayerControls : MonoBehaviour
     public void GoBack()
     {
         Debug.Log("going back");
-        var trans = transform.Find("PlayerBody").transform;
+        var trans = transform.Find("RunneyWhole").transform;
         Quaternion temp = trans.rotation;
         temp.y = 180;
         trans.rotation = temp;
@@ -68,6 +68,18 @@ public class PlayerControls : MonoBehaviour
             GameplayControl.Instance.StopBackground();
             GameplayControl.Instance.StopGround();
             GameplayControl.Instance.InitReverseRun();
+        }
+
+        if (other.gameObject.tag == "waterTarget")
+        {
+            isJumping = false;
+            other.gameObject.GetComponentInParent<WaterTargetControl>().DebugTime();
+            other.gameObject.GetComponentInParent<WaterTargetControl>().touched = true;
+            scroll.isLinkedToCamera = true;
+            GetComponent<ScrollingScript>().speed = Vector2.zero;
+            GameplayControl.Instance.StopBackground();
+            GameplayControl.Instance.StopGround();
+
         }
     }
 

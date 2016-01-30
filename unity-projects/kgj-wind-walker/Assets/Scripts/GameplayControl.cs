@@ -42,11 +42,8 @@ public class GameplayControl: MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	    if(initReverse)
-        {
-            if(initReverseTime >= Time.time)
-            {
-                //do nothing
-            } else
+        { 
+            if(initReverseTime <= Time.time)
             {
                 initReverse = false;
                 Debug.Log("will go back");
@@ -59,6 +56,9 @@ public class GameplayControl: MonoBehaviour {
                 groundScrollingScript.RebuildList();
 
             }
+        } else
+        {
+            initReverseTime = Time.time;
         }
 	}
 
