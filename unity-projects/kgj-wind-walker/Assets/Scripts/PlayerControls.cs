@@ -58,7 +58,6 @@ public class PlayerControls : MonoBehaviour
         if(other.gameObject.tag == "groundTag")
         {
             isJumping = false;
-            SoundEffectsHelper.Instance.MakeRunnningSound();
         }
         if (other.gameObject.tag == "wellTag")
         {
