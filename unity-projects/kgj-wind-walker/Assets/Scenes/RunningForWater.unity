@@ -123,6 +123,7 @@ GameObject:
   - 114: {fileID: 132626693}
   - 114: {fileID: 132626695}
   - 114: {fileID: 132626696}
+  - 114: {fileID: 132626697}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -192,6 +193,19 @@ MonoBehaviour:
   spawnRateMin: 1
   enemyTemplate: {fileID: 409014, guid: de2e740b35c457e4e94c8c8c4f5ad3ae, type: 2}
   foregroundTemplate: {fileID: 403864, guid: 51023084c60bd5f4f8305a18903d65d6, type: 2}
+--- !u!114 &132626697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 132626692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3a6809914d90694494837ae96b5f1a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runningSound: {fileID: 8300000, guid: 2f08bab9ba0b66849925f19064699280, type: 3}
+  jumpSound: {fileID: 8300000, guid: 8071d7e163b231b43b8b10367c310629, type: 3}
 --- !u!1 &163732227
 GameObject:
   m_ObjectHideFlags: 0

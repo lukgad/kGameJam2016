@@ -30,6 +30,7 @@ public class PlayerControls : MonoBehaviour
             //jumpTime = Time.time + jumpDuration;
             GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             GetComponent<Rigidbody2D>().AddForce(jumpForce);
+            SoundEffectsHelper.Instance.MakeJumpSound();
         }
 
     }
@@ -57,6 +58,7 @@ public class PlayerControls : MonoBehaviour
         if(other.gameObject.tag == "groundTag")
         {
             isJumping = false;
+            SoundEffectsHelper.Instance.MakeRunnningSound();
         }
         if (other.gameObject.tag == "wellTag")
         {
