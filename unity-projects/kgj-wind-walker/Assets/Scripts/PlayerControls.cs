@@ -88,8 +88,8 @@ public class PlayerControls : MonoBehaviour
 
         if(other.gameObject.tag == "groundEnemy")
         {
-            Destroy(other.gameObject);
             SoundEffectsHelper.Instance.MakeBarrelHitSound();
+            Destroy(other.gameObject);
             GameplayControl.Instance.GetComponent<TimeController>().collisionWithObstacle();
             GameplayControl.Instance.GetComponent<ComboController>().ResetCounter();
         }
