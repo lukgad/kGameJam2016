@@ -87,4 +87,11 @@ public class GameplayControl: MonoBehaviour {
     {
         initReverse = true;
     }
+
+    internal void AddScrollingScriptToSpawned(GameObject go)
+    {
+        go.AddComponent<ScrollingScript>();
+        go.GetComponent<ScrollingScript>().speed = groundScrollingScript.speed;
+        go.GetComponent<ScrollingScript>().direction = groundScrollingScript.direction;
+    }
 }
