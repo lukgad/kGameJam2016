@@ -52,6 +52,9 @@ TagManager:
   - name: Background
     uniqueID: 2468181479
     locked: 0
+  - name: WalkingGround
+    uniqueID: 3863156447
+    locked: 0
   - name: Props
     uniqueID: 934814645
     locked: 0
