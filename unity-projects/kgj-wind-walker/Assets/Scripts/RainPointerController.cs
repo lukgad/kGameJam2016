@@ -11,7 +11,7 @@ public class RainPointerController : MonoBehaviour {
 	public int numberOfMiraclesToSpawn = 15;
 
 	private static readonly float RAIN_SPOT_WIDTH = 2f;
-
+	bool gameOver = false;
 	void Start () {
 		wave ();
 	}
@@ -34,7 +34,7 @@ public class RainPointerController : MonoBehaviour {
 			yield return new WaitForSeconds (interval);
 		}
 
-
+		bool gameOver = true;
 	}
 
 	private Vector3 CalculateRainSpotPosition (){
