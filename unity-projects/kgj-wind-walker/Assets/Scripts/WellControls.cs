@@ -22,6 +22,8 @@ public class WellControls : MonoBehaviour
             pScroll.isLinkedToCamera = false;
             GameplayControl.Instance.GetComponent<EnemySpawningControl>().stopSpawning();
             GameplayControl.Instance.GetComponent<TimeController>().StopTimer();
+            GameplayControl.Instance.backgroundScrollingScript.StopMoving();
+            GameplayControl.Instance.groundScrollingScript.StopMoving();
         }
     }
 
