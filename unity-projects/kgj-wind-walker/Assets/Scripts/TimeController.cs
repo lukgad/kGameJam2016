@@ -10,7 +10,7 @@ public class TimeController : MonoBehaviour
     private float hitColorTime;
     public Text scoreText;
 
-    private static readonly string TEXT_TEMPLATE = "Remaining time: ";
+    private static readonly string TEXT_TEMPLATE = ": ";
     private float time;
     private bool timeIsRunning;
 
