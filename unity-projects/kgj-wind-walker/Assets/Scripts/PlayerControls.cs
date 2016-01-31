@@ -88,6 +88,7 @@ public class PlayerControls : MonoBehaviour
         {
             DestroyObject(other.gameObject);
             GameplayControl.Instance.GetComponent<TimeController>().collisionWithObstacle();
+            GameplayControl.Instance.GetComponent<ComboController>().ResetCounter();
         }
     }
 

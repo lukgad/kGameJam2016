@@ -124,6 +124,7 @@ GameObject:
   - 114: {fileID: 132626695}
   - 114: {fileID: 132626696}
   - 114: {fileID: 132626697}
+  - 114: {fileID: 132626698}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -206,6 +207,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runningSound: {fileID: 8300000, guid: 2f08bab9ba0b66849925f19064699280, type: 3}
   jumpSound: {fileID: 8300000, guid: 8071d7e163b231b43b8b10367c310629, type: 3}
+--- !u!114 &132626698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 132626692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3bbea4235b4c294fa7259476b671c12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1788646670}
 --- !u!1 &163732227
 GameObject:
   m_ObjectHideFlags: 0
@@ -238,7 +251,7 @@ RectTransform:
   - {fileID: 1143284643}
   - {fileID: 1788646669}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -910,7 +923,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
 --- !u!82 &1749481037
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1013,8 +1026,8 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 366, y: -16}
-  m_SizeDelta: {x: 286, y: 36}
+  m_AnchoredPosition: {x: 390, y: -15}
+  m_SizeDelta: {x: 76, y: 36}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1788646670
 MonoBehaviour:
@@ -1028,7 +1041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: .20761244, g: .379787505, b: .882352948, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1047,7 +1060,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Combo: x'
+  m_Text: x
 --- !u!222 &1788646671
 CanvasRenderer:
   m_ObjectHideFlags: 0
