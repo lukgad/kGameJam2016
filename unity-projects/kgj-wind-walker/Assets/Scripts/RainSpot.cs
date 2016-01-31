@@ -4,7 +4,7 @@ using System.Collections;
 public class RainSpot : MonoBehaviour {
 
 	public float requiredWateringTime = 1f;
-
+	public GameObject waterFromKonewka;
 	private static readonly string PLAYER_TAG ="Player";
 	private float spacePressTime =  0f;
 	private float spaceReleaseTime =  0f;
@@ -15,7 +15,6 @@ public class RainSpot : MonoBehaviour {
 	private static readonly string WATERING_ANIM = "Watering";
 	private static readonly string RUNNING_ANIM = "Running";
 	private Animator anim;
-
 
 
 	void Start() {
@@ -80,7 +79,10 @@ public class RainSpot : MonoBehaviour {
 
 	private void DestroySpot() {
 		scoreController.miraclePerformed ();
-	//	wateringEnabledParticleSystem.Stop ();
+
+		Vector3 temp = gameObject.transform.position;
+		temp.y = waterFromKonewka.transform.position.y;
+		Instantiate (waterFromKonewka,temp , Quaternion.identity);
 		Destroy (gameObject);
 	}
 
