@@ -8,6 +8,13 @@ public class IntroTalkingScript : MonoBehaviour {
 	public GameObject rightMoney;
 	public GameObject rightAccept;
 	public GameObject rightCloud;
+	public GameObject leftMagic;
+	public GameObject rightNoMagic;
+	public GameObject rightNoCloud;
+	public GameObject rightKonewka;
+	public GameObject rightWell;
+	public GameObject leftLeftAccept;
+
 
 	// Use this for initialization
 	void Start () {
@@ -22,12 +29,17 @@ public class IntroTalkingScript : MonoBehaviour {
 
 	private void go() {
 		StartCoroutine (SpawnRainSpots (rightCloud, 2f));
-		StartCoroutine (SpawnRainSpots (leftAccept, 6f));
-		StartCoroutine (SpawnRainSpots (leftMoney, 10f));
-		StartCoroutine (SpawnRainSpots (rightMoney, 14f));
-		StartCoroutine (SpawnRainSpots (leftAccept, 18f));
-		StartCoroutine (SpawnRainSpots (rightAccept, 18f));
-		StartCoroutine (LoadLevelAfterTime (22f));
+		StartCoroutine (SpawnRainSpots (leftMagic, 6f));
+		StartCoroutine (SpawnRainSpots (leftCloud, 10f));
+		StartCoroutine (SpawnRainSpots (rightAccept, 14f));
+		StartCoroutine (SpawnRainSpots (leftMoney, 18f));
+		StartCoroutine (SpawnRainSpots (rightAccept, 22f));
+		StartCoroutine (SpawnRainSpots (rightNoMagic, 26f));
+		StartCoroutine (SpawnRainSpots (rightNoCloud, 30f));
+		StartCoroutine (SpawnRainSpots (rightKonewka, 34f));
+		StartCoroutine (SpawnRainSpots (rightWell, 38f));
+		StartCoroutine (SpawnRainSpots (leftLeftAccept, 42f));
+		StartCoroutine (LoadLevelAfterTime (46f));
 	}
 
 	private void LoadNextLevenOnSpace() {
