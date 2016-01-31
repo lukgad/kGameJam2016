@@ -59,6 +59,7 @@ public class GameplayControl: MonoBehaviour {
                 GetComponent<EnemySpawningControl>().ReverserSpawnBorder();
                 GetComponent<EnemySpawningControl>().startSpawning();
                 GetComponent<TimeController>().StartTimer();
+                GetComponent<ComboController>().ResetCounter();
 
             }
         } else

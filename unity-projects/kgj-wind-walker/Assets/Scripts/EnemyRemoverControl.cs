@@ -3,7 +3,8 @@ using System.Collections;
 
 public class EnemyRemoverControl : MonoBehaviour {
 
-	// Use this for initialization
+    // Use this for initialization
+    public bool isValidForScore = false;
 	void Start () {
 	
 	}
@@ -12,6 +13,10 @@ public class EnemyRemoverControl : MonoBehaviour {
 	void Update () {
 	    if(!GetComponent<Renderer>().IsVisibleFrom(Camera.main))
         {
+            if(isValidForScore)
+            {
+                GameplayControl.Instance.GetComponent<ComboController>().IncrementCounter();
+            }
             Destroy(gameObject);
         }
 	}

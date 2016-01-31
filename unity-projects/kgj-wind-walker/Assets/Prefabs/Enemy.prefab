@@ -26,8 +26,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 155622}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.7200003, y: -2.55999994, z: 0}
-  m_LocalScale: {x: .5, y: .5, z: 1}
+  m_LocalPosition: {x: -1.34891081, y: 10.6743698, z: 0}
+  m_LocalScale: {x: .300000012, y: .300000012, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -42,11 +42,11 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: .0500000007
   m_GravityScale: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &6142672
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -57,9 +57,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -.964852333, y: 1.13511848}
   serializedVersion: 2
-  m_Size: {x: 2.75, y: 2.55999994}
+  m_Size: {x: 3.7716074, y: 4.83023643}
 --- !u!61 &6153144
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -70,9 +70,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -.964851379, y: .813503265}
   serializedVersion: 2
-  m_Size: {x: 2.75, y: 2.55999994}
+  m_Size: {x: 2.40946293, y: 4.33834076}
 --- !u!212 &21208616
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -99,7 +99,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1085128909
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4b1730dc24072534f9373d8d781cb982, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f0bcc974a82523849830a66c67e81795, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
@@ -116,6 +116,11 @@ Prefab:
       propertyPath: m_TagString
       value: groundEnemy
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f0bcc974a82523849830a66c67e81795,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 155622}
