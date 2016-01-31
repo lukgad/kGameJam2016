@@ -20,4 +20,12 @@ public class EnemyRemoverControl : MonoBehaviour {
             Destroy(gameObject);
         }
 	}
+
+    void OnDestroy()
+    {
+        if(isValidForScore)
+        {
+            SpecialEffectsHelper.Instance.ExplodeBarrel(transform.position);
+        }
+    }
 }
