@@ -209,7 +209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3a6809914d90694494837ae96b5f1a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runningSound: {fileID: 8300000, guid: 2f08bab9ba0b66849925f19064699280, type: 3}
+  hitSound: {fileID: 8300000, guid: 5054540095d0d7c4c92bb46592596574, type: 3}
   jumpSound: {fileID: 8300000, guid: 8071d7e163b231b43b8b10367c310629, type: 3}
 --- !u!114 &132626698
 MonoBehaviour:
