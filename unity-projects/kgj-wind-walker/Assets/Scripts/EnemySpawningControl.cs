@@ -70,6 +70,7 @@ public class EnemySpawningControl : MonoBehaviour
         currentFG.GetComponent<Renderer>().sortingLayerName = sortingLayer;
         target.Add(currentFG);
         currentFG.gameObject.AddComponent<EnemyRemoverControl>();
+        GameplayControl.Instance.AddScrollingScriptToSpawned(currentFG.gameObject);
         currentFG.GetComponent<EnemyRemoverControl>().isValidForScore = isValidForScore;
         timer = new Vector3(Time.time + Random.Range(timer.y, timer.z), timer.y, timer.z);
     }

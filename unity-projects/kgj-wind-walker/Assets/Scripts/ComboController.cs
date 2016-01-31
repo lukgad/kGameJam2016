@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class ComboController : MonoBehaviour {
 
     public Text scoreText;
-    private static readonly string TEXT_TEMPLATE = "x";
+    private static readonly string TEXT_TEMPLATE = "COMBO x";
     private int comboCounter;
 
 
