@@ -18,18 +18,25 @@ public class EnemySpawningControl : MonoBehaviour
     private bool reverse = false;
     private float postionForEnemies;
     private float positionForForeground;
+    public int numberOfProps;
+    private List<Transform> props;
+    public Vector3 propsTimes = new Vector3(1.0f, 1.0f, 1.5f);
+    private float positionForProps;
 
     // Use this for initialization
     void Start()
     {
         enemies = new List<Transform>();
         foregrounds = new List<Transform>();
+        props = new List<Transform>();
         timeIsRunning = true;
 
         postionForEnemies = gameObject.transform.FindChild("EnemySpawningPoint").transform.position.y;
         positionForForeground = gameObject.transform.FindChild("BushSpawningPoint").transform.position.y;
+        positionForProps = gameObject.transform.FindChild("UpperBushSpawningPoint").transform.position.y;
         enemiesTimes.x = Time.time + enemiesTimes.x;
         foregroundTimes.x = Time.time + foregroundTimes.x;
+        propsTimes.x = Time.time + propsTimes.x;
 
     }
 
@@ -51,9 +58,14 @@ public class EnemySpawningControl : MonoBehaviour
         {
             addObject(ref foregroundTimes, foregrounds, foregroundTemplate, "Foreground", positionForForeground, rightBorder, leftBorder, false);
         }
+        if (canSpawn(propsTimes, props, numberOfProps))
+        {
+            addObject(ref propsTimes, props, foregroundTemplate, "Props", positionForProps, rightBorder, leftBorder, false);
+        }
 
         cleanupNulls(foregrounds);
         cleanupNulls(enemies);
+        cleanupNulls(props);
 
     }
 
@@ -102,6 +114,7 @@ public class EnemySpawningControl : MonoBehaviour
     {
         killAll(enemies);
         killAll(foregrounds);
+        killAll(props);
         timeIsRunning = false;
     }
 
