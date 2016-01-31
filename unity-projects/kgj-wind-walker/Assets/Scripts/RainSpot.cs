@@ -49,7 +49,7 @@ public class RainSpot : MonoBehaviour {
 
 	void OnTriggerExit2D(Collider2D collider) {
 		if(collider.gameObject.tag == PLAYER_TAG) {
-			wateringEnabledParticleSystem.Stop ();
+//			wateringEnabledParticleSystem.Stop ();
 		}
 	}
 
