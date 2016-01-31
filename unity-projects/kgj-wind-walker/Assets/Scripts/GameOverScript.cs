@@ -37,7 +37,7 @@ public class GameOverScript : MonoBehaviour {
     )
     {
       // Reload the level
-      Application.LoadLevel("GameScene");
+      Application.LoadLevel("MainMenu");
     }
   }
 }

@@ -31,6 +31,7 @@ public class PlayerControls : MonoBehaviour
             GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             GetComponent<Rigidbody2D>().AddForce(jumpForce);
             SoundEffectsHelper.Instance.MakeJumpSound();
+            SetJumpTrigger(true);
         }
 
     }
@@ -58,6 +59,7 @@ public class PlayerControls : MonoBehaviour
         if(other.gameObject.tag == "groundTag")
         {
             isJumping = false;
+            SetJumpTrigger(false);
         }
         if (other.gameObject.tag == "wellTag")
         {
@@ -86,10 +88,15 @@ public class PlayerControls : MonoBehaviour
 
         if(other.gameObject.tag == "groundEnemy")
         {
+            SoundEffectsHelper.Instance.MakeBarrelHitSound();
             Destroy(other.gameObject);
             GameplayControl.Instance.GetComponent<TimeController>().collisionWithObstacle();
             GameplayControl.Instance.GetComponent<ComboController>().ResetCounter();
         }
     }
 
+    private void SetJumpTrigger(bool trigger)
+    {
+        GetComponentInChildren<Animator>().SetBool("Jump", trigger);
+    }
 }
