@@ -45,11 +45,11 @@ public class EnemySpawningControl : MonoBehaviour
                           ).x;
         if (canSpawn(enemiesTimes,enemies,numberOfEnemies))
         {
-            addObject(ref enemiesTimes, enemies, enemyTemplate, "Characters", postionForEnemies, rightBorder, leftBorder);
+            addObject(ref enemiesTimes, enemies, enemyTemplate, "Characters", postionForEnemies, rightBorder, leftBorder, true);
         }
         if (canSpawn(foregroundTimes, foregrounds, numberOfForeground))
         {
-            addObject(ref foregroundTimes, foregrounds, foregroundTemplate, "Foreground", positionForForeground, rightBorder, leftBorder);
+            addObject(ref foregroundTimes, foregrounds, foregroundTemplate, "Foreground", positionForForeground, rightBorder, leftBorder, false);
         }
 
         cleanupNulls(foregrounds);
@@ -63,13 +63,14 @@ public class EnemySpawningControl : MonoBehaviour
         return times.x < Time.time && timeIsRunning && target.Count < limit;
     }
 
-    private void addObject(ref Vector3 timer, List<Transform> target, Transform baseSprite, string sortingLayer, float yPos, float rightBorder, float leftBorder)
+    private void addObject(ref Vector3 timer, List<Transform> target, Transform baseSprite, string sortingLayer, float yPos, float rightBorder, float leftBorder, bool isValidForScore)
     {
         var currentFG = Instantiate(baseSprite) as Transform;
         currentFG.transform.position = new Vector3(reverse ? rightBorder : leftBorder, yPos, 0);
         currentFG.GetComponent<Renderer>().sortingLayerName = sortingLayer;
         target.Add(currentFG);
         currentFG.gameObject.AddComponent<EnemyRemoverControl>();
+        currentFG.GetComponent<EnemyRemoverControl>().isValidForScore = isValidForScore;
         timer = new Vector3(Time.time + Random.Range(timer.y, timer.z), timer.y, timer.z);
     }
 
