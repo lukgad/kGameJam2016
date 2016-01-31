@@ -36,6 +36,7 @@ public class SpecialEffectsHelper : MonoBehaviour {
       newParticleSystem.gameObject,
       newParticleSystem.startLifetime
     );
+	newParticleSystem.GetComponent<Renderer>().sortingLayerName = "Foreground";
 
     return newParticleSystem;
   }
