@@ -7,6 +7,7 @@ public class TimeController : MonoBehaviour
 {
 
     private float remainigTime;
+    private float hitColorTime;
     public Text scoreText;
 
     private static readonly string TEXT_TEMPLATE = "Remaining time: ";
@@ -19,6 +20,7 @@ public class TimeController : MonoBehaviour
         timeIsRunning = true;
         updateRemainingTime();
         time = Time.time + 1.0f;
+        hitColorTime = Time.time;
     }
 
 
@@ -38,12 +40,18 @@ public class TimeController : MonoBehaviour
             GameplayControl.Instance.StopGround();
             GameplayControl.Instance.StopPlayer();
         }
+        if(hitColorTime < Time.time)
+        {
+            scoreText.color = Color.black;
+        }
     }
 
     public void collisionWithObstacle()
     {
         remainigTime--;
         updateRemainingTime();
+        scoreText.color = Color.red;
+        hitColorTime = Time.time + 0.5f;
     }
 
     private void updateRemainingTime()

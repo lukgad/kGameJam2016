@@ -19,6 +19,10 @@ public class WaterTargetControl : MonoBehaviour {
 		if (isVisible && movedAway)
         {
             pScroll.isLinkedToCamera = false;
+            GameplayControl.Instance.GetComponent<EnemySpawningControl>().stopSpawning();
+            GameplayControl.Instance.GetComponent<TimeController>().StopTimer();
+            GameplayControl.Instance.backgroundScrollingScript.StopMoving();
+            GameplayControl.Instance.groundScrollingScript.StopMoving();
         }
 		if (!isVisible && !movedAway) {
 			movedAway = true;
