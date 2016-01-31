@@ -17,7 +17,7 @@ public class MenuButtons : MonoBehaviour {
 	}
 
 	private void QuitOnEscape() {
-		if (Input.GetKey ("escape")) {
+		if (Input.GetKey (KeyCode.Escape)) {
 			ExitGame();
 		}
 	}
