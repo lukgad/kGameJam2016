@@ -81,6 +81,8 @@ public class GameplayControl: MonoBehaviour {
     internal void StopPlayer()
     {
         playerControl.GetComponent<ScrollingScript>().StopMoving();
+        playerControl.GetComponentInChildren<Animator>().SetBool("Running", false);
+
     }
 
     internal void InitReverseRun()
