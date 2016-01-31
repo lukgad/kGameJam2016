@@ -10,6 +10,8 @@ public class RainPointerController : MonoBehaviour {
 	public GameObject rainSpot;
 	public int numberOfMiraclesToSpawn = 15;
 
+	public GameObject retryObject;
+
 	private static readonly float RAIN_SPOT_WIDTH = 2f;
 	bool gameOver = false;
 	void Start () {
@@ -34,8 +36,16 @@ public class RainPointerController : MonoBehaviour {
 			yield return new WaitForSeconds (interval);
 		}
 
-		bool gameOver = true;
+		StartCoroutine(over (4f));
 	}
+
+
+	IEnumerator over(float startWait) {
+		yield return new WaitForSeconds (startWait);
+		Time.timeScale = 0f;
+		retryObject.SetActive(true);
+	}
+
 
 	private Vector3 CalculateRainSpotPosition (){
 		float calcPositionX = Random.Range(branchLeftBorder, branchRightBorder);

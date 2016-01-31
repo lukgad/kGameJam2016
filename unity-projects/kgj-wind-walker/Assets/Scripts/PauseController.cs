@@ -48,4 +48,9 @@ public class PauseController : MonoBehaviour {
 		Time.timeScale = 1f;
 		canvasPause.SetActive (false);
 	}
+
+	public void retry() {
+		Time.timeScale = 1f;
+		Application.LoadLevel ("RitualScene");
+	}
 }
