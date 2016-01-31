@@ -51,6 +51,7 @@ public class PlayerControls : MonoBehaviour
         var scroll = GetComponent<ScrollingScript>();
         scroll.StartMoving();
         scroll.Reverse();
+        GetComponentInChildren<Animator>().SetBool("Running", true);
 
     }
 
