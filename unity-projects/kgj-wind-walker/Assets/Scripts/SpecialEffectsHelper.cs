@@ -20,7 +20,8 @@ public class SpecialEffectsHelper : MonoBehaviour {
 
   public void ExplodeBarrel(Vector3 position)
   {
-    instantiate(barrelExplosionEffect, position);
+        barrelExplosionEffect.GetComponent<Renderer>().sortingLayerName = "Characters";
+        instantiate(barrelExplosionEffect, position);
   }
 
 
